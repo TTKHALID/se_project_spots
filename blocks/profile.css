@@ -9,6 +9,7 @@
   margin-right: 20px;
   height: 190px;
   width: 190px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -28,6 +29,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
+  opacity: 70%;
 }
 
 .profile__edit-button {
@@ -42,6 +44,7 @@
   border: none;
   gap: 8px;
   color: rgba(33, 33, 33, 1);
+  opacity: 70%;
   background-color: #fcf5e5;
 }
 
