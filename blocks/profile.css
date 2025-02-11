@@ -24,7 +24,6 @@
   line-height: 1;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -39,7 +38,6 @@
   opacity: 70%;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -47,6 +45,7 @@
 }
 
 .profile__edit-button {
+  position: relative;
   margin-top: auto;
   margin-right: auto;
   font-weight: 500;
@@ -59,10 +58,12 @@
   gap: 8px;
   color: rgba(33, 33, 33, 1);
   opacity: 70%;
-  background-color: #fcf5e5;
+  background-color: transparent;
+  padding-left: 24px;
 }
 
 .profile__add-button {
+  position: relative;
   margin-left: auto;
   margin-top: auto;
   font-weight: 500;
@@ -87,6 +88,31 @@
 .profile__add-button:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.profile__edit-button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/pencil.svg");
+  background-size: cover;
+}
+
+.profile__add-button::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/plus.svg");
+  background-size: cover;
+  pointer-events: none;
 }
 
 @media screen and (max-width: 627px) {
