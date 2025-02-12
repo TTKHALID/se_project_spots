@@ -78,6 +78,7 @@
   color: #fff;
   background-color: #212121;
   padding: 18px 32px 18px;
+  text-wrap: nowrap;
 }
 
 .profile__edit-button:hover {
