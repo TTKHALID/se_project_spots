@@ -42,4 +42,8 @@ This project is made so all the elements are displayed correctly on popular scre
 
 - This webpage is deployed to GitHub Pages.
 
+## Links
+
 - [Link to the project on Figma](https://ttkhalid.github.io/se_project_spots/)
+
+- [Link to a video about my Project](https://drive.google.com/file/d/1eiK4jxRsv9_tZiKeMmq2VUWkGq32cT_I/view?usp=drive_link)
