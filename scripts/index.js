@@ -62,8 +62,6 @@ function openModal() {
 
 function closeModal() {
   editModal.classList.remove("modal_opened");
-  editModalNameInput.value = profileName.textContent.trim();
-  editModalDescriptionInput.value = profileDescription.textContent.trim();
 }
 
 function handleEditFormSubmit(evt) {
